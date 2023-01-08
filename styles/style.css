@@ -250,6 +250,7 @@
 }
 
 .table_theme_dark {
+
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -319,6 +320,7 @@
 
 .footer__column-heading {
   color: white;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -342,6 +344,7 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin: 0;
+  padding: 0 0 16px 0;
   list-style-type: none;
 }
