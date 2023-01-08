@@ -18,7 +18,7 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
   display: flex;
   position: relative;
 }
@@ -284,35 +284,38 @@
   background-color: #1f1f1f;
   min-height: 350px;
   display: flex;
-  padding: 60px 0 40px 0;
-  box-sizing: border-box;
+  justify-content: center;
 }
 
 .footer__columns {
   display: flex;
   width: 90%;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 60px 0 40px 0;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  width: 100%;
+
   flex-basis: 711px;
-  position: relative;
+  justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_info {
+
 }
 
-.footer__column_content-info {
-}
-
-.footer__column_content-social {
+.footer__column_content_social {
 
 }
 
 .logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -320,9 +323,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 18px;
-  position: absolute;
-  bottom: 18px;
+  padding: 18px 0 18px 0;
 }
 
 .footer__column-heading {
@@ -330,7 +331,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer__column-link {
@@ -339,6 +340,8 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-icon {
