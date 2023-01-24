@@ -1,6 +1,7 @@
-.digits {
-  padding: 100px 0 100px 0;
+.khan {
+  padding-top: 105px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f2f2f2;
 }
